@@ -1,0 +1,40 @@
+.cardStyle {
+    background: #3405a3;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin: 10px;
+    box-shadow: 7px 2px 2px #033085bd;
+
+}
+
+.cardStyle span {
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    /* padding-top: 10px; */
+    font-size: 20px;
+}
+
+.cardStyle p {
+
+    font-weight: 600;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.cardStyle img {
+    width: 90%;
+    height: auto;
+    background: #6b64f3;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.cardStyle:hover {
+    transform: scale(1.1);
+}

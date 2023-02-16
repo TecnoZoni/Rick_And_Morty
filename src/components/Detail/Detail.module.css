@@ -1,0 +1,41 @@
+.Detail {
+    /* Visual Effect */
+    background: #3405a3;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    margin: 10px;
+    box-shadow: 7px 2px 2px #033085bd;
+    color: white;
+    /* Postition */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: fit-content;
+}
+
+
+.Detail p {
+
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+}
+
+.col {
+    max-width: 400px;
+    margin: 15px;
+    height: auto;
+    height: 80%;
+}
+
+.ImageDetail {
+    border-radius: 50%;
+
+}
+
+.direction{
+    display: flex;
+    justify-content: center;
+}

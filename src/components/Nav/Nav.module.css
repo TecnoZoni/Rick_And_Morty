@@ -1,0 +1,17 @@
+.navBar{
+    background-color: rgba(76, 0, 255, 0.356);
+    backdrop-filter: blur(5px);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.searchBar{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 80px;
+}

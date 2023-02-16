@@ -1,0 +1,14 @@
+.Button {
+    padding: 8px 25px;
+    margin: auto;
+    border-radius: 8px;
+    border: none;
+    background: #6b64f3;
+    color: white;
+    font-weight: 600;
+}
+
+.Button:hover{
+    background: #a39ff8;
+    transform: scale(1.1);
+}
