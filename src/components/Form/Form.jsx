@@ -36,6 +36,8 @@ const Form = ({ login }) => {
         <div className={style.container}>
             <form onSubmit={handleSubmit} className={style.form}>
                 <p className={style.heading}>SIGN IN</p>
+                <p>Username: agustin@gmail.com</p>
+                <p>password: 123asd</p>
                 <div className={style.field}>
                     <input className={style.inputField} placeholder="Username" type="text" name="username" value={userData.username} onChange={handleInputChange} />
                 </div>
