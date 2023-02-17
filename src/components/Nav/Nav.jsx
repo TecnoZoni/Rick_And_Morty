@@ -1,6 +1,7 @@
 import SearchBar from "../SearchBar/SearchBar"
 import style from './Nav.module.css'
 import { Link } from "react-router-dom"
+import button from "../Botton/Botton.module.css"
 
 const Nav = ({ onSearch }) => {
     return (
@@ -11,17 +12,17 @@ const Nav = ({ onSearch }) => {
                     <img src="https://1000logos.net/wp-content/uploads/2022/03/Rick-and-Morty.png" alt="" />
                 </Link>
             </div>
-            <Link to="/">
-                LOGOUT
+            <Link className={button.Button} to="/">
+                Logout
             </Link>
-            <Link to="/Home">
-                HOME
+            <Link className={button.Button} to="/Home">
+                Home
             </Link>
-            <Link to="/about">
-                ABOUT
+            <Link className={button.Button} to="/about">
+                About
             </Link>
-            <Link to="/favorites">
-                FAVORITES
+            <Link className={button.Button} to="/favorites">
+                Favorites
             </Link>
             <div className={style.searchBar}>
                 <SearchBar onSearch={onSearch} />

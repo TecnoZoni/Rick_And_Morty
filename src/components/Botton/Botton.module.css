@@ -6,6 +6,7 @@
     background: #6b64f3;
     color: white;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .Button:hover{

@@ -23,6 +23,8 @@ function App() {
     if (userData.username === username && userData.password === password) {
       setAcces(true)
       navigate("/home")
+    } else {
+      alert("Usuario no registrado")
     }
   }
 
